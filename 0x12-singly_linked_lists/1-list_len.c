@@ -2,14 +2,14 @@
 #include "lists.h"
 
 
-size_t list_len(const list_t *w)
+size_t list_len(const list_t *h)
 {
 	size_t s = 0;
 
-	while (w)
+	while (h)
 	{
 		s++;
-		w = w->next;
+		h = h->next;
 	}
 	return (s);
 }
