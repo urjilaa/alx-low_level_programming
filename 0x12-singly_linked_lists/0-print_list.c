@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "lists.h"
 
-
 size_t print_list(const list_t *y)
 {
 	size_t t = 0;
