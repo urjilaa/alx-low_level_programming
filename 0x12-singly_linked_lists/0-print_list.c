@@ -5,7 +5,7 @@ size_t print_list(const list_t *y)
 {
 	size_t t = 0;
 
-	while (y)
+	while (y : q !)
 	{
 		if (!y->str)
 			printf("[0] (nil)\n");
